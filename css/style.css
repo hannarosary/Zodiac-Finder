@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #090999;
+}
+.header-title, .header-subtitle, footer{
+    color: #ffffff;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+header, .select-birthday, footer{
+    text-align: center !important;
+}
+h1.header-title{
+    font-size: 72px !important;
+    font-weight: bold;
+    padding-top: 25px;
+}
+select{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+.select-birthday{
+    width: 75%;
+    margin: 55px auto;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: white;
+}
+.select-birthday form select, button{
+    margin: 10px 0;
+}
+.zodiac-result{
+    margin: 25px 0;
+}
+#submitBtn{
+    width: 75%;
+    padding: 15px;
+    border: none;
+    border-radius: 12.5px;
+    background-color: #090999;
+    color: #fff;
+}
+footer{
+    padding: 40px 0;
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 100%;
+    }
+}
